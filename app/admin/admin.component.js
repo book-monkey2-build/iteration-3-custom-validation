@@ -10,24 +10,22 @@ var __metadata = (this && this.__metadata) || function (k, v) {
 };
 var core_1 = require('angular2/core');
 var router_1 = require('angular2/router');
-var book_list_item_component_1 = require('../book-list-item/book-list-item.component');
-var book_store_service_1 = require('../services/books/book-store.service');
-var BookListComponent = (function () {
-    function BookListComponent(bs) {
-        this.bs = bs;
-        this.books = bs.getAll();
+var book_form_component_1 = require('../book-form/book-form.component');
+var AdminComponent = (function () {
+    function AdminComponent() {
     }
-    BookListComponent = __decorate([
+    AdminComponent = __decorate([
+        router_1.RouteConfig([
+            { path: 'books/', name: 'Add', component: book_form_component_1.BookFormComponent, data: { mode: 'add' }, useAsDefault: true },
+            { path: 'books/:isbn', name: 'Update', component: book_form_component_1.BookFormComponent, data: { mode: 'update' } }
+        ]),
         core_1.Component({
-            selector: 'book-list',
-            directives: [book_list_item_component_1.BookListItem, router_1.RouterLink],
-            moduleId: module.id,
-            templateUrl: 'book-list.component.html',
-            providers: [book_store_service_1.BookStoreService]
+            directives: [router_1.RouterOutlet],
+            template: '<router-outlet></router-outlet>'
         }), 
-        __metadata('design:paramtypes', [book_store_service_1.BookStoreService])
-    ], BookListComponent);
-    return BookListComponent;
+        __metadata('design:paramtypes', [])
+    ], AdminComponent);
+    return AdminComponent;
 }());
-exports.BookListComponent = BookListComponent;
-//# sourceMappingURL=book-list.component.js.map
+exports.AdminComponent = AdminComponent;
+//# sourceMappingURL=admin.component.js.map

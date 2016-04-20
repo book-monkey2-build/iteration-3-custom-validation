@@ -1,16 +1,26 @@
 CACHE MANIFEST
 # sw.bundle: ng-cli
-# sw.version: 84331872985401b1daf953c36b0ff72377894e58
+# sw.version: 28e6d07c19c56c7d42a3e250d39dc2ce218d5742
 # sw.file.hash: 9e27270431dd0e36213a0a0d1aafbd1faa409265
 /app.js
 # sw.file.hash: a694ddf1b9e159301ce22afb9ec5f28504524dcb
 /app.js.map
-# sw.file.hash: 9931041b6f9ff3422d7756ce9d384d4e704db7c5
+# sw.file.hash: bab91376d2e0a872d3d6c912b5ffd17fa53a9950
+/app/admin/admin.component.js
+# sw.file.hash: 52879e10105fa9f2e0da82196b24040daefda8db
+/app/admin/admin.component.js.map
+# sw.file.hash: d1b70526dd203a8870bf788850faf09914ee41d9
 /app/book-details/book-details.component.js
-# sw.file.hash: ff678eb20369716b20b60ea9c44cdd039f322aca
+# sw.file.hash: f671994ad95e06a0570619b2172a9faeab7c4b4c
 /app/book-details/book-details.component.js.map
-# sw.file.hash: e099698d21a13140856059d6f3253ec0dc65b495
+# sw.file.hash: d52d7f5d0f8c0f1f432dff762f87e33f53b24f58
 /app/book-details/book-details.html
+# sw.file.hash: a54817a05d36f34583561711ed650a488bed2df9
+/app/book-form/book-form.component.html
+# sw.file.hash: abc9e48be9227db3dd1b959a7658ca076f24ee89
+/app/book-form/book-form.component.js
+# sw.file.hash: 9420c473f54e648139dbee5e0e9b76aa3fd9b398
+/app/book-form/book-form.component.js.map
 # sw.file.hash: da67c256320fd3f9078bba545441f4ebe19aa4db
 /app/book-list-item/book-list-item.component.html
 # sw.file.hash: a27bb1cbced730b8e7015d71b012c5d473cca4fc
@@ -19,33 +29,27 @@ CACHE MANIFEST
 /app/book-list-item/book-list-item.component.js.map
 # sw.file.hash: 52010fe93eccf36b51b63a25556e17170bf5bfcd
 /app/book-list/book-list.component.html
-# sw.file.hash: ef229b7e008734ab3174a9be411a0ca3a4e8483b
+# sw.file.hash: b8c05c09714a6f2b1153bb743a82b89f4c74e539
 /app/book-list/book-list.component.js
-# sw.file.hash: 210ac65720ec439e540b8193ce20f8d135f67d6b
+# sw.file.hash: 30810486b0051f8ed93f827a6730b5b2f1a5debb
 /app/book-list/book-list.component.js.map
 # sw.file.hash: 245397fcbd8799e0a49a9c7c10c36c18dc96e777
 /app/book-monkey.html
-# sw.file.hash: 4e75e1b7da109a80c9c83e2c22bf3db84fd99dcd
+# sw.file.hash: e177f3955b8a96106bf2ed195022f8a5633f61e9
 /app/book-monkey.js
-# sw.file.hash: 4dc96c6d4706a99cc44e61054ea75c90523482fe
+# sw.file.hash: d53fc5b698744a215d9bfd3764506f423d292108
 /app/book-monkey.js.map
 # sw.file.hash: 3df41d3d8f45836863f351093c3cabd25e6ec968
 /app/books/books.component.js
 # sw.file.hash: 14a9f2faf03b749201e8084e0e9446600ba5d6ad
 /app/books/books.component.js.map
-# sw.file.hash: a54817a05d36f34583561711ed650a488bed2df9
-/app/form/form.component.html
-# sw.file.hash: 8395ed8daa3ee111228fcd6f324671ec1f5f1f29
-/app/form/form.component.js
-# sw.file.hash: 8e37f6ff4dfb5f9600d7d5917791adf16d611888
-/app/form/form.component.js.map
 # sw.file.hash: 14825bc04696127a1d1c61adcfbbcac573d5159f
 /app/home/home.component.js
 # sw.file.hash: e43c4ec397c8e273c32a3896a813eebc57b8c3b3
 /app/home/home.component.js.map
-# sw.file.hash: 41889fcfaebbdd43a5eb7a9a73715323c4ea467e
+# sw.file.hash: 68b78490d214ff3f0a92d68c6b6c9ad00225cafc
 /app/services/books/book-store.service.js
-# sw.file.hash: e3234b1259aa1bd8a1124dc8f7294c8d2a72dfc9
+# sw.file.hash: 5e72b6170251dbbc547d782ca8cfe4e99cd52db3
 /app/services/books/book-store.service.js.map
 # sw.file.hash: 50db417be731122c93f2eb301bb4f28d1984ef65
 /app/validators/date.validator.js
@@ -59,9 +63,9 @@ CACHE MANIFEST
 /app/validators/validation-result.js
 # sw.file.hash: f27024d0ad220200b1eafb523eac4aaf9b2ac32e
 /app/validators/validation-result.js.map
-# sw.file.hash: 87997081cd1516c9e674f5723d45785250891b53
+# sw.file.hash: f294c81d0629caea277b0a073a992de7dbe53f2a
 /domain/book.js
-# sw.file.hash: a0ea47736afe6a5c38c038d009d5f01772a8643c
+# sw.file.hash: 3098f00b7eac968ba6a017c7520f9d15da906d06
 /domain/book.js.map
 # sw.file.hash: fb8f417d9e7565256d9ea3d3f8536cf69110678f
 /domain/thumbnail.js
